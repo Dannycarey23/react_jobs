@@ -2,8 +2,9 @@ import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import { useState } from "react";
 import { toast } from "react-toastify";
 
-const EditJobPage = ({updateJobSubmit}) => {
+const EditJobPage = ({ updateJobSubmit }) => {
 	const job = useLoaderData();
+	console.log(job);
 
 	const [title, setTitle] = useState(job.title);
 	const [type, setType] = useState(job.type);
@@ -16,32 +17,34 @@ const EditJobPage = ({updateJobSubmit}) => {
 	const [contactPhone, setContactPhone] = useState(job.company.contactPhone);
 
 	const navigate = useNavigate();
-    const {id} = useParams();
+	const { id } = useParams();
 
 	const submitForm = (e) => {
-        e.preventDefault();
-				const updatedJob = {
-                    id,
-					title,
-					type,
-					description,
-					location,
-					salary,
-					company: { name, description, contactEmail, contactPhone }
-				};
-				updateJobSubmit(updatedJob);
+		e.preventDefault();
+		const updatedJob = {
+			id,
+			title,
+			type,
+			description,
+			location,
+			salary,
+			company: { name: companyName, description: companyDescription, contactEmail, contactPhone }
+		};
+		updateJobSubmit(updatedJob);
 
-				toast.success("Job updated successfully");
+		toast.success("Job updated successfully");
 
-				return navigate(`/jobs/${id}`);
-    };
+		return navigate(`/jobs/${id}`);
+	};
 
 	return (
 		<section className="bg-indigo-50">
 			<div className="container m-auto max-w-2xl py-24">
 				<div className="bg-white px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0">
 					<form onSubmit={submitForm}>
-						<h2 className="text-3xl text-center font-semibold mb-6">Update Job</h2>
+						<h2 className="text-3xl text-center font-semibold mb-6">
+							Update Job
+						</h2>
 
 						<div className="mb-4">
 							<label
