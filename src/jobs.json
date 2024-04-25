@@ -83,48 +83,6 @@
         "contactEmail": "contact@pixelpulse.co.uk",
         "contactPhone": "0141-123-4567"
       }
-    },
-    {
-      "id": "ec35",
-      "title": "test1",
-      "type": "Full-Time",
-      "description": "test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 ",
-      "location": "test1",
-      "salary": "$90K - 100K",
-      "company": {
-        "name": "",
-        "description": "test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 test1 ",
-        "contactEmail": "test1@test1.com",
-        "contactPhone": "12345 12345"
-      }
-    },
-    {
-      "id": "9a89",
-      "title": "REact React React",
-      "type": "Full-Time",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget sapien iaculis, mattis lorem sit amet, molestie justo. Suspendisse a aliquet elit, nec molestie enim. Aenean in quam volutpat, ullamcorper turpis at, ultrices metus. Sed ut venenatis libero. Proin convallis nisl purus, sit amet auctor sapien pharetra id. Sed varius lectus elementum sodales feugiat. ",
-      "location": "Glasgow",
-      "salary": "Under $50K",
-      "company": {
-        "name": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget sapien iaculis, mattis lorem sit amet, molestie justo. Suspendisse a aliquet elit, nec molestie enim. Aenean in quam volutpat, ullamcorper turpis at, ultrices metus. Sed ut venenatis libero. Proin convallis nisl purus, sit amet auctor sapien pharetra id. Sed varius lectus elementum sodales feugiat. ",
-        "contactEmail": "admin@tbrc.com",
-        "contactPhone": "0141 123 1345"
-      }
-    },
-    {
-      "id": "2990",
-      "title": "React2",
-      "type": "Full-Time",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget sapien iaculis, mattis lorem sit amet, molestie justo. Suspendisse a aliquet elit, nec molestie enim. Aenean in quam volutpat, ullamcorper turpis at, ultrices metus. Sed ut venenatis libero. Proin convallis nisl purus, sit amet auctor sapien pharetra id. Sed varius lectus elementum sodales feugiat. ",
-      "location": "Glasgow g41",
-      "salary": "$60K - 70K",
-      "company": {
-        "name": "Sum Big React Company",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget sapien iaculis, mattis lorem sit amet, molestie justo. Suspendisse a aliquet elit, nec molestie enim. Aenean in quam volutpat, ullamcorper turpis at, ultrices metus. Sed ut venenatis libero. Proin convallis nisl purus, sit amet auctor sapien pharetra id. Sed varius lectus elementum sodales feugiat. ",
-        "contactEmail": "admin@sbrc.com",
-        "contactPhone": "0141 666 1234"
-      }
     }
   ]
 }
